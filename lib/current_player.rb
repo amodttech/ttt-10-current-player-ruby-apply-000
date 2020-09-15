@@ -1,6 +1,9 @@
+# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def turn_count(board)
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  
+  turns = nil
+  board.each do
+    if 
 end
 
 
