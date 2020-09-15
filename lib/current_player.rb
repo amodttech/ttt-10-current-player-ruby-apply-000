@@ -4,6 +4,8 @@ def turn_count(board)
   turns = nil
   board.each do
     if 
+    else
+  end
 end
 
 
