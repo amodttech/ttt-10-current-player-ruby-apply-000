@@ -1,11 +1,10 @@
-# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
 def turn_count(board)
   counter = nil
   board.each do
     if [] == "X" || "O"
       counter += 1
     end
+  end
   counter
 end
 
