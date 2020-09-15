@@ -1,11 +1,12 @@
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
-  turns = nil
+  counter = nil
   board.each do
-    if 
-    else
-  end
+    if [] == "X" || "O"
+      counter += 1
+    end
+  counter
 end
 
 
